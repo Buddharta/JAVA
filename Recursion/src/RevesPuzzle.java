@@ -27,9 +27,9 @@ public class RevesPuzzle {
                 if( disks == 1){move(disks, pole1, pole4); return;}
                 int k = (int)Math.round(disks + 1 - Math.sqrt(2 * disks + 1));
                 int m = disks - k;
-                reves(k, pole1, pole2, pole4, pole3);
-                Hanoi(m, k, pole1, pole2, pole4);
-                reves(k, pole3, pole2, pole1, pole4);
+                reves(k, pole1, pole4, pole3, pole2);
+                Hanoi(m, k, pole1, pole4, pole3);
+                reves(k, pole2, pole1, pole3, pole4);
         }
         public static void Hanoi(int disks, int k, char fromPole, char toPole, char auxPole){
                 if (disks == 0) return;
