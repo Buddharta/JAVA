@@ -9,6 +9,8 @@ public class RecursiveSquares {
         // Draws a square centered on (x, y) of the given side length
         // with a light gray background and a black border.
         public static void drawSquare(double x, double y, double length){
+                StdDraw.show();
+                StdDraw.setPenColor(StdDraw.GRAY);
                 StdDraw.filledSquare(x,y,length);
         }
 
