@@ -1,16 +1,7 @@
-IntroCS.zip
-introcs-data.zip
-Hello/.idea/
-HelloWorld.java
-Percolations/.idea/
-Tone.class
-introcs.jar
-stdlib.jar
-Recursion/.idea/
 Recursion/Recursion.iml
-Recursion/recursion.zip
 *.class
-
+*.jar
+*.zip
 other/
 
 # Ignore Gradle project-specific cache directory
